@@ -35,7 +35,7 @@ function Send(){
 
   return (
    
-        <div className={`cards ${status == "ON" ? 'green' : 'cards'}`}>
+        <div className={`cards ${status == "ON" ? 'green' : 'off'}`}>
             <div >
                   <img  
                   className='perfil' 
@@ -53,7 +53,7 @@ function Send(){
                      {status}
                   </div>
             </div>
-            <button className={`btn btn-success ${status == "ON" && 'btn btn-light'}`}  onClick={Send} >  
+            <button className={`btn btn-success ${status == "ON" && 'btn btn-green'}`}  onClick={Send} >  
                   <span>alterar</span> 
             </button>
         </div>
