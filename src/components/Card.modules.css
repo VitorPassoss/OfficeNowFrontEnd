@@ -13,6 +13,7 @@
     padding: 5px;
     margin: 10px;
     
+    
     box-shadow: 5px 5px 5px rgb(236, 235, 235);
     
 }
@@ -82,3 +83,11 @@
     color: #04502e;
 }
 
+.icon-img{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    left: 120px;
+    bottom: 10px;
+    
+}

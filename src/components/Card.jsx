@@ -36,6 +36,11 @@ function Send(){
   return (
    
         <div className={`cards ${status == "ON" ? 'green' : 'off'}`}>
+
+          {status == "OFF" ? <div className='icon'>
+                <img className='icon-img' src="https://cdn-icons-png.flaticon.com/512/1826/1826064.png" alt="" />
+            </div>  : ''}
+            
             <div >
                   <img  
                   className='perfil' 
