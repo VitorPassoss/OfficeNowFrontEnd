@@ -1,0 +1,30 @@
+
+
+.item{
+    height: 250px;
+    width: 100%;
+    padding: 2px;
+    margin-top: 15%;
+    display: grid;
+
+    
+}
+
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+
+
+.tittle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #47e69e;
+    color: white;
+    padding: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+}
