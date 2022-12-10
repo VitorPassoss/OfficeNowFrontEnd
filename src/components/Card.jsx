@@ -20,7 +20,7 @@ function  enviarStatus() {
       idfuncionarios: idfuncionarios
     };
 
-    axios.post("http://localhost:3000/funcionarios", data)
+    axios.post("https://econowapi.onrender.com/funcionarios", data)
     .then((response) => {
       console.log(response)       
     })
