@@ -3,7 +3,7 @@ import React, { useState , useEffect} from 'react';
 import '../pages/Home.modules.css'
 import axios from "axios";
 
-const baseURL = "http://localhost:3000/funcionarios";
+const baseURL = "https://econowapi.onrender.com/funcionarios";
 
 const Home = () => {
   
